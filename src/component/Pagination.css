@@ -1,0 +1,35 @@
+.pagidiv1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pagidiv2{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    max-width: 670px;
+    padding: 2px 0;
+}
+.pagidiv3{
+    display: flex;
+    row-gap: 2px;
+}
+.btn {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 1px 4px;
+    width: 5rem;
+    margin-right: 0.6rem;
+    cursor: pointer;
+}
+.pagiPara1{
+    font-weight: bolder;
+    font-size: small;
+}

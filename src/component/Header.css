@@ -1,0 +1,20 @@
+.top-level{
+    width: 100vw;
+    background: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    border: 2px;
+}
+.header{
+    text-align: center;
+}
+.heading{
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0.5rem ;
+}

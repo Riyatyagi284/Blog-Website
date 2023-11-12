@@ -1,0 +1,164 @@
+.container {
+    width: 90%;
+    max-width: 670px;
+    height: 100%;
+    padding: 8px 0;
+    flex-direction: column;
+    column-gap: 7px;
+    margin-top: 3.22rem;
+    margin-bottom: 70px;
+}
+
+.home-container,
+.category-container,
+.tag-container {
+    margin-top: 8rem;
+}
+
+.blog-container {
+    margin-top: 1.22rem;
+}
+
+.span1 {
+    font-style: italic;
+}
+
+.span2 {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: darkgoldenrod;
+    transition: all 0.4s ease-in;
+}
+
+.span2:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
+    height: 0.6rem;
+}
+
+.para1 {
+    font-size: 1.4rem;
+    margin-top: 4px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: blueviolet;
+    margin-bottom: 0.5rem;
+}
+
+.para1:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    margin-top: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.para {
+    font-size: 1.1rem;
+    margin-top: 4px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.para2 {
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 0.4rem;
+}
+
+.span3 {
+    color: #e72a2a;
+    font-weight: 700;
+    font-size: medium;
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+
+.span3:hover {
+    text-decoration: underline;
+    color: #e72a2a;
+}
+
+.blog-btn,
+.category-btn,
+.tag-btn {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 12px 4px;
+    width: 6rem;
+    margin-right: 0.6rem;
+    cursor: pointer;
+    margin-top: 8rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.tag-style {
+    margin-bottom: 1.4rem;
+}
+
+
+.topLine-blogWrapper {
+    width: 50%;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.topLine-categoryWrapper,
+.topLine-tagWrapper {
+    width: 50%;
+    margin-bottom: -7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+h2 {
+    margin-bottom: 0rem;
+}
+
+
+/* ############# Responsive Styling ################## */
+
+@media screen and (min-width:1352px) {
+    .topLine-categoryWrapper, .topLine-tagWrapper {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+     }
+}
+
+@media screen and (max-width:1352px) {
+    .topLine-categoryWrapper, .topLine-tagWrapper {
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -7rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .topLine-categoryWrapper, .topLine-tagWrapper {
+       width: 92%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .heading {
+        font-size: 2.6rem;
+    }
+    .home-container, .category-container, .tag-container {
+        margin-top: 7rem;
+    }
+    .blog-btn, .category-btn, .tag-btn {
+        margin-top: 6rem;
+    }
+}
